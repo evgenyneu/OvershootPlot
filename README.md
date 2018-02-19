@@ -46,23 +46,23 @@ python3 plot_evolution.py -h
 
 ### Examples of evolution plots
 
-Show the extent of the overshoot in meters from the intershell convective region.
+Show the extent of inward overshoot in meters from the intershell convective region #1.
 
 ```shell
-python3 plot_evolution.py -x=model -y=overshoot_dr_m -z ISCZ
+python3 plot_evolution.py -x=model -y=overshoot_dr_m -t shell -z=1 -d=in
 ```
 
-<img src='https://github.com/evgenyneu/OvershootPlot/raw/master/images/overshoot_extent_meter_iscz_2.png' width='500' alt='Overshoot extent meters interhsell convective region'>
+<img src='https://github.com/evgenyneu/OvershootPlot/raw/master/images/overshoot_extent_meter_shell_inwards.png' width='500' alt='Inward overshoot extent meters interhsell convective region #1'>
 
 
 
-Show both the bottom of intershell convective zone and the overshoot, measured in mass/MSun.
+Show both the inner edge of intershell convective zone and the overshoot for zone 1, measured in mass/MSun.
 
 ```
-python3 plot_evolution.py -x=model -y=convection_m_msun -y=overshoot_m_msun -z ISCZ
+python3 plot_evolution.py -x=model -y=convection_m_msun -y=overshoot_m_msun -t shell -z=1 -d=in
 ```
 
-<img src='https://github.com/evgenyneu/OvershootPlot/raw/master/images/overshoot_and_bottom_envelope_mass_sun_2.png' width='500' alt='Overshoot extent interhsell convective region'>
+<img src='https://github.com/evgenyneu/OvershootPlot/raw/master/images/inner_overshoot_and_envelope_mass_sun.png' width='500' alt='Overshoot and convective region edge'>
 
 ### Evolution plot app
 
@@ -72,7 +72,7 @@ The model plots can be veiwed in an app:
 python3 gui_evolution.py
 ```
 
-<img src='https://github.com/evgenyneu/OvershootPlot/raw/master/images/gui_evolution_plot.png' width='600' alt='Overshoot evolution plot GUI'>
+<img src='https://github.com/evgenyneu/OvershootPlot/raw/master/images/gui_evolution_plot_2.png' width='600' alt='Overshoot evolution plot GUI'>
 
 
 ## Plot single model
@@ -97,7 +97,7 @@ See how density changes near the overshoot region marked with red lines:
 python3 plot_model.py -y=rho -m=200
 ```
 
-<img src='https://github.com/evgenyneu/OvershootPlot/raw/master/images/overshoot_plot_mode_density_200_2.png' width='500' alt='Overshoot model density'>
+<img src='https://github.com/evgenyneu/OvershootPlot/raw/master/images/overshoot_plot_mode_density_200_3.png' width='500' alt='Overshoot model density'>
 
 
 
