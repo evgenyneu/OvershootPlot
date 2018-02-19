@@ -107,7 +107,7 @@ Show the change in the oxygen abundance:
 python3 plot_model.py -x=m_msun -y=abund_o_16 -m=200
 ```
 
-<img src='https://github.com/evgenyneu/OvershootPlot/raw/master/images/overshoot_mode_oxygen_200_2.png' width='500' alt='Overshoot model oxygen abundance'>
+<img src='https://github.com/evgenyneu/OvershootPlot/raw/master/images/overshoot_mode_oxygen_200_3.png' width='500' alt='Overshoot model oxygen abundance'>
 
 ### Model plot app
 
@@ -117,4 +117,4 @@ The model plots can be veiwed in an app:
 python3 gui_model.py
 ```
 
-<img src='https://github.com/evgenyneu/OvershootPlot/raw/master/images/gui_model_plot_2.png' width='600' alt='Overshoot model plot GUI'>
+<img src='https://github.com/evgenyneu/OvershootPlot/raw/master/images/gui_model_plot_3.png' width='600' alt='Overshoot model plot GUI'>
