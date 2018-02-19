@@ -72,7 +72,7 @@ The model plots can be veiwed in an app:
 python3 gui_evolution.py
 ```
 
-<img src='https://github.com/evgenyneu/OvershootPlot/raw/master/images/gui_evolution_plot_2.png' width='600' alt='Overshoot evolution plot GUI'>
+<img src='https://github.com/evgenyneu/OvershootPlot/raw/master/images/gui_evolution_plot_2.png' width='800' alt='Overshoot evolution plot GUI'>
 
 
 ## Plot single model
@@ -117,4 +117,4 @@ The model plots can be veiwed in an app:
 python3 gui_model.py
 ```
 
-<img src='https://github.com/evgenyneu/OvershootPlot/raw/master/images/gui_model_plot_3.png' width='600' alt='Overshoot model plot GUI'>
+<img src='https://github.com/evgenyneu/OvershootPlot/raw/master/images/gui_model_plot_3.png' width='800' alt='Overshoot model plot GUI'>
